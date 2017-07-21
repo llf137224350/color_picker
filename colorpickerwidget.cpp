@@ -106,6 +106,7 @@ void ColorPickerWidget::keyReleaseEvent(QKeyEvent *event){
 
 }
 void ColorPickerWidget::showColor(){
+    this->hide();
     //声音提醒
     qApp->beep();
     //显示对话框
